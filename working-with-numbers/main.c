@@ -1,14 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 int main(){
-  char characterName[] = "Tom"; //storing a bunch of characters in the variable  
-  int characterAge = 75;
-
-  printf("There was a man named %s\n", characterName); //%s is telling C im going to place String (collection of chars) there
-  printf("%s was %d years old\n",characterName, characterAge); //%d reoresents the integer number
-  printf("%s really liked his name\n", characterName);
-  characterAge = 35;
-  printf("but he did not like being %d.\n", characterAge);
+  //%d -> integer; %s -> string, %f-> decimal, %c -> single chars
+  printf("%f\n", 5 - 4.5); //It will convert to double
+  printf("%f \n", sqrt(4.0));
+  printf("%f", floor(36.765));
   return 0;
 }
